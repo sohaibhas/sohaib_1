@@ -1,0 +1,83 @@
+.hero {
+  text-align: center;
+  background-color: red;
+}
+.hero .hero-left {
+  position: absolute;
+  float: left;
+  align-items: center;
+  text-align: center;
+  top: 50%;
+  right: 50%;
+  animation: slideInFromRight 1s ease-in;
+  animation:float 3s linear infinite;
+}
+.hero .social {
+  position: absolute;
+  top: 40%;
+  right: 90%;
+  animation: slideInFromBottom 1s ease-in;
+}
+.hero .social ul {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 30px;
+}
+.hero .social li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.hero .hero-left h1 {
+  font-size: 80px;
+}
+.hero .hero-left h3 {
+  margin-top: -80px;
+  padding-left: 80px;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+}
+.hero .hero-right {
+  float: right;
+  padding: 100px;
+  padding-bottom: 0px;
+  background-color: rgba(59, 121, 100);
+  border-radius: 500px;
+  overflow: hidden;
+  animation: slideInFromLeft 1s ease-in;
+}
+
+body {
+  /* background-image: url("https://cdn.pixabay.com/photo/2015/12/29/14/51/mountains-1112911_960_720.jpg");
+  background-size: cover; */
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+  font-family: 'Oswald', sans-serif;
+}
+.hero .icon {
+  color: white;
+  font-size: 2rem;
+}
+.github:hover {
+  color: #000000;
+  transform: translateY(-15px);
+}
+.facebook:hover {
+  color: #1773ea;
+  transform: translateY(-15px);
+}
+.instagram:hover {
+  color: #d64171;
+  transform: translateY(-15px);
+}
+.twitter:hover {
+  color: #1c9cea;
+  transform: translateY(-15px);
+}
+@keyframes float{
+  0%, 100%{
+    transform: translateY(0rem);
+  }
+  50%{
+    transform: translateY(1rem);
+  }
+}

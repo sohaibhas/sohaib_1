@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+p {
+  color: #cccaca;
+}
+
+.blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5rem;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+  margin-right: 3rem;
+  background: linear-gradient(to top left, #197370, #3B8868,#205E6A);
+  box-shadow: 0 0em 0.5em 0.5em #8aff5c;
+  border-radius: 2rem;
+}
+.blog-1 {
+  background-color: #2b2a2a;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+  
+  width: 20rem;
+  height: 30rem;
+  margin-left: 3rem;
+  margin-top: 0rem;
+  background: transparent;
+}
+.blog-1 h1 {
+  text-align: center;
+  align-items: center;
+  font-size: 5rem;
+}
+.blog-2 {
+  width: 100%;
+  background-color: #3b3b3b;
+  padding: 2rem;
+  background: transparent;  
+  /* border-left: 2px solid ; */
+}
+
+.blog-2 p {
+  text-align: left;
+  font-size: 1.8rem;
+}
+ 
+.red{
+  color:rgb(163, 54, 54);
+}
