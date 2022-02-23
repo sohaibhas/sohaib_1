@@ -7,6 +7,7 @@ const About = () => {
       <div className="blog">
         <div className="blog-1">
           <h1 className="about">About Me</h1>
+          <hr/>
         </div>
         <div className="blog-2">
           <div>
