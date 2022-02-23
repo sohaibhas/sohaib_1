@@ -23,7 +23,6 @@ const About = () => {
             things and expand my knowledge, teaching and helping others, lead a
             team and work together.
           </p>
-          <a href="#">Read more</a>
         </div>
       </div>
     </div>
